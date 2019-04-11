@@ -23,6 +23,7 @@
 		7E21C5CE225F137100751E70 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5CD225F137100751E70 /* NotificationController.swift */; };
 		7E21C5D0225F137100751E70 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5CF225F137100751E70 /* ComplicationController.swift */; };
 		7E21C5D2225F137200751E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C5D1225F137200751E70 /* Assets.xcassets */; };
+		7E21C5E9225F173E00751E70 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C5E8225F173E00751E70 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		7E21C5D1225F137200751E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E21C5D3225F137200751E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E21C5D4225F137200751E70 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7E21C5E8225F173E00751E70 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		7E21C584225F136D00751E70 = {
 			isa = PBXGroup;
 			children = (
+				7E21C5E8225F173E00751E70 /* .gitignore */,
 				7E21C58F225F136D00751E70 /* IsTodayMeatballsDay */,
 				7E21C5A4225F137000751E70 /* IsTodayMeatballsDayTests */,
 				7E21C5AF225F137000751E70 /* IsTodayMeatballsDayUITests */,
@@ -368,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E21C5E9225F173E00751E70 /* .gitignore in Resources */,
 				7E21C59B225F137000751E70 /* LaunchScreen.storyboard in Resources */,
 				7E21C598225F137000751E70 /* Assets.xcassets in Resources */,
 				7E21C596225F136D00751E70 /* Main.storyboard in Resources */,
@@ -618,6 +622,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				INFOPLIST_FILE = "IsTodayMeatballsDay WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -639,6 +644,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				INFOPLIST_FILE = "IsTodayMeatballsDay WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -661,6 +667,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				IBSC_MODULE = IsTodayMeatballsDay_WatchKit_Extension;
 				INFOPLIST_FILE = "IsTodayMeatballsDay WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDay.watchkitapp;
@@ -679,6 +686,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				IBSC_MODULE = IsTodayMeatballsDay_WatchKit_Extension;
 				INFOPLIST_FILE = "IsTodayMeatballsDay WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDay.watchkitapp;
@@ -696,6 +704,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				INFOPLIST_FILE = IsTodayMeatballsDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -713,6 +722,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				INFOPLIST_FILE = IsTodayMeatballsDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -731,6 +741,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				INFOPLIST_FILE = IsTodayMeatballsDayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -751,6 +762,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				INFOPLIST_FILE = IsTodayMeatballsDayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -770,6 +782,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				INFOPLIST_FILE = IsTodayMeatballsDayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -789,6 +802,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9F4H64BE;
 				INFOPLIST_FILE = IsTodayMeatballsDayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
