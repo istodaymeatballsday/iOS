@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E21C591225F136D00751E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C590225F136D00751E70 /* AppDelegate.swift */; };
+		7E21C593225F136D00751E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C592225F136D00751E70 /* ViewController.swift */; };
+		7E21C596225F136D00751E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C594225F136D00751E70 /* Main.storyboard */; };
+		7E21C598225F137000751E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C597225F137000751E70 /* Assets.xcassets */; };
+		7E21C59B225F137000751E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C599225F137000751E70 /* LaunchScreen.storyboard */; };
+		7E21C5A6225F137000751E70 /* IsTodayMeatballsDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5A5225F137000751E70 /* IsTodayMeatballsDayTests.swift */; };
+		7E21C5B1225F137000751E70 /* IsTodayMeatballsDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5B0225F137000751E70 /* IsTodayMeatballsDayUITests.swift */; };
+		7E21C5B6225F137000751E70 /* IsTodayMeatballsDay WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7E21C5B5225F137000751E70 /* IsTodayMeatballsDay WatchKit App.app */; };
+		7E21C5BC225F137000751E70 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C5BA225F137000751E70 /* Interface.storyboard */; };
+		7E21C5BE225F137100751E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C5BD225F137100751E70 /* Assets.xcassets */; };
+		7E21C5C5225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7E21C5C4225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E21C5CA225F137100751E70 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5C9225F137100751E70 /* InterfaceController.swift */; };
+		7E21C5CC225F137100751E70 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5CB225F137100751E70 /* ExtensionDelegate.swift */; };
+		7E21C5CE225F137100751E70 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5CD225F137100751E70 /* NotificationController.swift */; };
+		7E21C5D0225F137100751E70 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5CF225F137100751E70 /* ComplicationController.swift */; };
+		7E21C5D2225F137200751E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C5D1225F137200751E70 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E21C5A2225F137000751E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E21C585225F136D00751E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E21C58C225F136D00751E70;
+			remoteInfo = IsTodayMeatballsDay;
+		};
+		7E21C5AD225F137000751E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E21C585225F136D00751E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E21C58C225F136D00751E70;
+			remoteInfo = IsTodayMeatballsDay;
+		};
+		7E21C5B7225F137000751E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E21C585225F136D00751E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E21C5B4225F137000751E70;
+			remoteInfo = "IsTodayMeatballsDay WatchKit App";
+		};
+		7E21C5C6225F137100751E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E21C585225F136D00751E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E21C5C3225F137100751E70;
+			remoteInfo = "IsTodayMeatballsDay WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E21C5DA225F137200751E70 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E21C5C5225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C5DE225F137200751E70 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7E21C5B6225F137000751E70 /* IsTodayMeatballsDay WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E21C58D225F136D00751E70 /* IsTodayMeatballsDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsTodayMeatballsDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E21C590225F136D00751E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E21C592225F136D00751E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E21C595225F136D00751E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E21C597225F137000751E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E21C59A225F137000751E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E21C59C225F137000751E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E21C5A1225F137000751E70 /* IsTodayMeatballsDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IsTodayMeatballsDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E21C5A5225F137000751E70 /* IsTodayMeatballsDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTodayMeatballsDayTests.swift; sourceTree = "<group>"; };
+		7E21C5A7225F137000751E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E21C5AC225F137000751E70 /* IsTodayMeatballsDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IsTodayMeatballsDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E21C5B0225F137000751E70 /* IsTodayMeatballsDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTodayMeatballsDayUITests.swift; sourceTree = "<group>"; };
+		7E21C5B2225F137000751E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E21C5B5225F137000751E70 /* IsTodayMeatballsDay WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IsTodayMeatballsDay WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E21C5BB225F137000751E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7E21C5BD225F137100751E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E21C5BF225F137100751E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E21C5C4225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IsTodayMeatballsDay WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E21C5C9225F137100751E70 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		7E21C5CB225F137100751E70 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7E21C5CD225F137100751E70 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7E21C5CF225F137100751E70 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7E21C5D1225F137200751E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E21C5D3225F137200751E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E21C5D4225F137200751E70 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E21C58A225F136D00751E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C59E225F137000751E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C5A9225F137000751E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C5C1225F137100751E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E21C584225F136D00751E70 = {
+			isa = PBXGroup;
+			children = (
+				7E21C58F225F136D00751E70 /* IsTodayMeatballsDay */,
+				7E21C5A4225F137000751E70 /* IsTodayMeatballsDayTests */,
+				7E21C5AF225F137000751E70 /* IsTodayMeatballsDayUITests */,
+				7E21C5B9225F137000751E70 /* IsTodayMeatballsDay WatchKit App */,
+				7E21C5C8225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension */,
+				7E21C58E225F136D00751E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E21C58E225F136D00751E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E21C58D225F136D00751E70 /* IsTodayMeatballsDay.app */,
+				7E21C5A1225F137000751E70 /* IsTodayMeatballsDayTests.xctest */,
+				7E21C5AC225F137000751E70 /* IsTodayMeatballsDayUITests.xctest */,
+				7E21C5B5225F137000751E70 /* IsTodayMeatballsDay WatchKit App.app */,
+				7E21C5C4225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E21C58F225F136D00751E70 /* IsTodayMeatballsDay */ = {
+			isa = PBXGroup;
+			children = (
+				7E21C590225F136D00751E70 /* AppDelegate.swift */,
+				7E21C592225F136D00751E70 /* ViewController.swift */,
+				7E21C594225F136D00751E70 /* Main.storyboard */,
+				7E21C597225F137000751E70 /* Assets.xcassets */,
+				7E21C599225F137000751E70 /* LaunchScreen.storyboard */,
+				7E21C59C225F137000751E70 /* Info.plist */,
+			);
+			path = IsTodayMeatballsDay;
+			sourceTree = "<group>";
+		};
+		7E21C5A4225F137000751E70 /* IsTodayMeatballsDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E21C5A5225F137000751E70 /* IsTodayMeatballsDayTests.swift */,
+				7E21C5A7225F137000751E70 /* Info.plist */,
+			);
+			path = IsTodayMeatballsDayTests;
+			sourceTree = "<group>";
+		};
+		7E21C5AF225F137000751E70 /* IsTodayMeatballsDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E21C5B0225F137000751E70 /* IsTodayMeatballsDayUITests.swift */,
+				7E21C5B2225F137000751E70 /* Info.plist */,
+			);
+			path = IsTodayMeatballsDayUITests;
+			sourceTree = "<group>";
+		};
+		7E21C5B9225F137000751E70 /* IsTodayMeatballsDay WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7E21C5BA225F137000751E70 /* Interface.storyboard */,
+				7E21C5BD225F137100751E70 /* Assets.xcassets */,
+				7E21C5BF225F137100751E70 /* Info.plist */,
+			);
+			path = "IsTodayMeatballsDay WatchKit App";
+			sourceTree = "<group>";
+		};
+		7E21C5C8225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E21C5C9225F137100751E70 /* InterfaceController.swift */,
+				7E21C5CB225F137100751E70 /* ExtensionDelegate.swift */,
+				7E21C5CD225F137100751E70 /* NotificationController.swift */,
+				7E21C5CF225F137100751E70 /* ComplicationController.swift */,
+				7E21C5D1225F137200751E70 /* Assets.xcassets */,
+				7E21C5D3225F137200751E70 /* Info.plist */,
+				7E21C5D4225F137200751E70 /* PushNotificationPayload.apns */,
+			);
+			path = "IsTodayMeatballsDay WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E21C58C225F136D00751E70 /* IsTodayMeatballsDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E21C5DF225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDay" */;
+			buildPhases = (
+				7E21C589225F136D00751E70 /* Sources */,
+				7E21C58A225F136D00751E70 /* Frameworks */,
+				7E21C58B225F136D00751E70 /* Resources */,
+				7E21C5DE225F137200751E70 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E21C5B8225F137000751E70 /* PBXTargetDependency */,
+			);
+			name = IsTodayMeatballsDay;
+			productName = IsTodayMeatballsDay;
+			productReference = 7E21C58D225F136D00751E70 /* IsTodayMeatballsDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E21C5A0225F137000751E70 /* IsTodayMeatballsDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E21C5E2225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDayTests" */;
+			buildPhases = (
+				7E21C59D225F137000751E70 /* Sources */,
+				7E21C59E225F137000751E70 /* Frameworks */,
+				7E21C59F225F137000751E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E21C5A3225F137000751E70 /* PBXTargetDependency */,
+			);
+			name = IsTodayMeatballsDayTests;
+			productName = IsTodayMeatballsDayTests;
+			productReference = 7E21C5A1225F137000751E70 /* IsTodayMeatballsDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E21C5AB225F137000751E70 /* IsTodayMeatballsDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E21C5E5225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDayUITests" */;
+			buildPhases = (
+				7E21C5A8225F137000751E70 /* Sources */,
+				7E21C5A9225F137000751E70 /* Frameworks */,
+				7E21C5AA225F137000751E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E21C5AE225F137000751E70 /* PBXTargetDependency */,
+			);
+			name = IsTodayMeatballsDayUITests;
+			productName = IsTodayMeatballsDayUITests;
+			productReference = 7E21C5AC225F137000751E70 /* IsTodayMeatballsDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7E21C5B4225F137000751E70 /* IsTodayMeatballsDay WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E21C5DB225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDay WatchKit App" */;
+			buildPhases = (
+				7E21C5B3225F137000751E70 /* Resources */,
+				7E21C5DA225F137200751E70 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E21C5C7225F137100751E70 /* PBXTargetDependency */,
+			);
+			name = "IsTodayMeatballsDay WatchKit App";
+			productName = "IsTodayMeatballsDay WatchKit App";
+			productReference = 7E21C5B5225F137000751E70 /* IsTodayMeatballsDay WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7E21C5C3225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E21C5D7225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDay WatchKit Extension" */;
+			buildPhases = (
+				7E21C5C0225F137100751E70 /* Sources */,
+				7E21C5C1225F137100751E70 /* Frameworks */,
+				7E21C5C2225F137100751E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IsTodayMeatballsDay WatchKit Extension";
+			productName = "IsTodayMeatballsDay WatchKit Extension";
+			productReference = 7E21C5C4225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E21C585225F136D00751E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Simon Kärrman";
+				TargetAttributes = {
+					7E21C58C225F136D00751E70 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					7E21C5A0225F137000751E70 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 7E21C58C225F136D00751E70;
+					};
+					7E21C5AB225F137000751E70 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 7E21C58C225F136D00751E70;
+					};
+					7E21C5B4225F137000751E70 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					7E21C5C3225F137100751E70 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 7E21C588225F136D00751E70 /* Build configuration list for PBXProject "IsTodayMeatballsDay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E21C584225F136D00751E70;
+			productRefGroup = 7E21C58E225F136D00751E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E21C58C225F136D00751E70 /* IsTodayMeatballsDay */,
+				7E21C5A0225F137000751E70 /* IsTodayMeatballsDayTests */,
+				7E21C5AB225F137000751E70 /* IsTodayMeatballsDayUITests */,
+				7E21C5B4225F137000751E70 /* IsTodayMeatballsDay WatchKit App */,
+				7E21C5C3225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E21C58B225F136D00751E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21C59B225F137000751E70 /* LaunchScreen.storyboard in Resources */,
+				7E21C598225F137000751E70 /* Assets.xcassets in Resources */,
+				7E21C596225F136D00751E70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C59F225F137000751E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C5AA225F137000751E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C5B3225F137000751E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21C5BE225F137100751E70 /* Assets.xcassets in Resources */,
+				7E21C5BC225F137000751E70 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C5C2225F137100751E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21C5D2225F137200751E70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E21C589225F136D00751E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21C593225F136D00751E70 /* ViewController.swift in Sources */,
+				7E21C591225F136D00751E70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C59D225F137000751E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21C5A6225F137000751E70 /* IsTodayMeatballsDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C5A8225F137000751E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21C5B1225F137000751E70 /* IsTodayMeatballsDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E21C5C0225F137100751E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E21C5CE225F137100751E70 /* NotificationController.swift in Sources */,
+				7E21C5D0225F137100751E70 /* ComplicationController.swift in Sources */,
+				7E21C5CC225F137100751E70 /* ExtensionDelegate.swift in Sources */,
+				7E21C5CA225F137100751E70 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E21C5A3225F137000751E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E21C58C225F136D00751E70 /* IsTodayMeatballsDay */;
+			targetProxy = 7E21C5A2225F137000751E70 /* PBXContainerItemProxy */;
+		};
+		7E21C5AE225F137000751E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E21C58C225F136D00751E70 /* IsTodayMeatballsDay */;
+			targetProxy = 7E21C5AD225F137000751E70 /* PBXContainerItemProxy */;
+		};
+		7E21C5B8225F137000751E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E21C5B4225F137000751E70 /* IsTodayMeatballsDay WatchKit App */;
+			targetProxy = 7E21C5B7225F137000751E70 /* PBXContainerItemProxy */;
+		};
+		7E21C5C7225F137100751E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E21C5C3225F137100751E70 /* IsTodayMeatballsDay WatchKit Extension */;
+			targetProxy = 7E21C5C6225F137100751E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E21C594225F136D00751E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E21C595225F136D00751E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E21C599225F137000751E70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E21C59A225F137000751E70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7E21C5BA225F137000751E70 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E21C5BB225F137000751E70 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E21C5D5225F137200751E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E21C5D6225F137200751E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E21C5D8225F137200751E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IsTodayMeatballsDay WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDay.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		7E21C5D9225F137200751E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "IsTodayMeatballsDay WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDay.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		7E21C5DC225F137200751E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = IsTodayMeatballsDay_WatchKit_Extension;
+				INFOPLIST_FILE = "IsTodayMeatballsDay WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		7E21C5DD225F137200751E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = IsTodayMeatballsDay_WatchKit_Extension;
+				INFOPLIST_FILE = "IsTodayMeatballsDay WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDay.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		7E21C5E0225F137200751E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IsTodayMeatballsDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E21C5E1225F137200751E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IsTodayMeatballsDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E21C5E3225F137200751E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IsTodayMeatballsDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IsTodayMeatballsDay.app/IsTodayMeatballsDay";
+			};
+			name = Debug;
+		};
+		7E21C5E4225F137200751E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IsTodayMeatballsDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IsTodayMeatballsDay.app/IsTodayMeatballsDay";
+			};
+			name = Release;
+		};
+		7E21C5E6225F137200751E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IsTodayMeatballsDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IsTodayMeatballsDay;
+			};
+			name = Debug;
+		};
+		7E21C5E7225F137200751E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IsTodayMeatballsDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.istodaymeatballsday.IsTodayMeatballsDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IsTodayMeatballsDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E21C588225F136D00751E70 /* Build configuration list for PBXProject "IsTodayMeatballsDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E21C5D5225F137200751E70 /* Debug */,
+				7E21C5D6225F137200751E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E21C5D7225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDay WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E21C5D8225F137200751E70 /* Debug */,
+				7E21C5D9225F137200751E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E21C5DB225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDay WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E21C5DC225F137200751E70 /* Debug */,
+				7E21C5DD225F137200751E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E21C5DF225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E21C5E0225F137200751E70 /* Debug */,
+				7E21C5E1225F137200751E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E21C5E2225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E21C5E3225F137200751E70 /* Debug */,
+				7E21C5E4225F137200751E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E21C5E5225F137200751E70 /* Build configuration list for PBXNativeTarget "IsTodayMeatballsDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E21C5E6225F137200751E70 /* Debug */,
+				7E21C5E7225F137200751E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E21C585225F136D00751E70 /* Project object */;
+}
