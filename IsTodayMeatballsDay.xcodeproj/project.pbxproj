@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7E21C591225F136D00751E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C590225F136D00751E70 /* AppDelegate.swift */; };
 		7E21C593225F136D00751E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C592225F136D00751E70 /* ViewController.swift */; };
-		7E21C596225F136D00751E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C594225F136D00751E70 /* Main.storyboard */; };
 		7E21C598225F137000751E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C597225F137000751E70 /* Assets.xcassets */; };
 		7E21C59B225F137000751E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C599225F137000751E70 /* LaunchScreen.storyboard */; };
 		7E21C5A6225F137000751E70 /* IsTodayMeatballsDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5A5225F137000751E70 /* IsTodayMeatballsDayTests.swift */; };
@@ -24,6 +23,10 @@
 		7E21C5D0225F137100751E70 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21C5CF225F137100751E70 /* ComplicationController.swift */; };
 		7E21C5D2225F137200751E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C5D1225F137200751E70 /* Assets.xcassets */; };
 		7E21C5E9225F173E00751E70 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7E21C5E8225F173E00751E70 /* .gitignore */; };
+		7E95B0EF22609B2A00709672 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95B0EE22609B2A00709672 /* ApiHandler.swift */; };
+		7E95B0F022609B2A00709672 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95B0EE22609B2A00709672 /* ApiHandler.swift */; };
+		7E95B0F122609B2A00709672 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95B0EE22609B2A00709672 /* ApiHandler.swift */; };
+		7E95B0F222609B2A00709672 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95B0EE22609B2A00709672 /* ApiHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +89,6 @@
 		7E21C58D225F136D00751E70 /* IsTodayMeatballsDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsTodayMeatballsDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E21C590225F136D00751E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E21C592225F136D00751E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E21C595225F136D00751E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E21C597225F137000751E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E21C59A225F137000751E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E21C59C225F137000751E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		7E21C5D3225F137200751E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E21C5D4225F137200751E70 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		7E21C5E8225F173E00751E70 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7E95B0EE22609B2A00709672 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,7 @@
 		7E21C584225F136D00751E70 = {
 			isa = PBXGroup;
 			children = (
+				7E95B0ED22609A9400709672 /* Shared */,
 				7E21C5E8225F173E00751E70 /* .gitignore */,
 				7E21C58F225F136D00751E70 /* IsTodayMeatballsDay */,
 				7E21C5A4225F137000751E70 /* IsTodayMeatballsDayTests */,
@@ -173,7 +177,6 @@
 			children = (
 				7E21C590225F136D00751E70 /* AppDelegate.swift */,
 				7E21C592225F136D00751E70 /* ViewController.swift */,
-				7E21C594225F136D00751E70 /* Main.storyboard */,
 				7E21C597225F137000751E70 /* Assets.xcassets */,
 				7E21C599225F137000751E70 /* LaunchScreen.storyboard */,
 				7E21C59C225F137000751E70 /* Info.plist */,
@@ -221,6 +224,14 @@
 				7E21C5D4225F137200751E70 /* PushNotificationPayload.apns */,
 			);
 			path = "IsTodayMeatballsDay WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7E95B0ED22609A9400709672 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7E95B0EE22609B2A00709672 /* ApiHandler.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +385,6 @@
 				7E21C5E9225F173E00751E70 /* .gitignore in Resources */,
 				7E21C59B225F137000751E70 /* LaunchScreen.storyboard in Resources */,
 				7E21C598225F137000751E70 /* Assets.xcassets in Resources */,
-				7E21C596225F136D00751E70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E21C593225F136D00751E70 /* ViewController.swift in Sources */,
+				7E95B0EF22609B2A00709672 /* ApiHandler.swift in Sources */,
 				7E21C591225F136D00751E70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E21C5A6225F137000751E70 /* IsTodayMeatballsDayTests.swift in Sources */,
+				7E95B0F022609B2A00709672 /* ApiHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E21C5B1225F137000751E70 /* IsTodayMeatballsDayUITests.swift in Sources */,
+				7E95B0F122609B2A00709672 /* ApiHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +456,7 @@
 			files = (
 				7E21C5CE225F137100751E70 /* NotificationController.swift in Sources */,
 				7E21C5D0225F137100751E70 /* ComplicationController.swift in Sources */,
+				7E95B0F222609B2A00709672 /* ApiHandler.swift in Sources */,
 				7E21C5CC225F137100751E70 /* ExtensionDelegate.swift in Sources */,
 				7E21C5CA225F137100751E70 /* InterfaceController.swift in Sources */,
 			);
@@ -474,14 +488,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7E21C594225F136D00751E70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E21C595225F136D00751E70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E21C599225F137000751E70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
