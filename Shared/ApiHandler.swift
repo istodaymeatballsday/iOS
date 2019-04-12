@@ -10,7 +10,7 @@ import Foundation
 
 
 class ApiHandler {
-    private let apiURL = "https://istodaymeatballsday.com/api"
+    private let apiURL = "https://api.istodaymeatballsday.com"
     
     private struct Response: Decodable {
         let msg: String
