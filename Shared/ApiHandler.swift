@@ -17,7 +17,7 @@ class ApiHandler {
         let code: Int
     }
 
-    public func getStatusCode(handler: @escaping ((Int) -> Void)) {
+    public func getStatus(handler: @escaping ((String) -> Void)) {
         guard let url = URL(string: apiURL) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in
@@ -25,8 +25,7 @@ class ApiHandler {
             
             do {
                 let res = try JSONDecoder().decode(Response.self, from: data)
-                print(res)
-                handler(res.code)
+                handler(res.msg)
             }catch let error {
                 print("JSON error:", error)
             }

@@ -27,10 +27,12 @@ class ViewController: UIViewController {
         self.label.rightAnchor.constraint(equalTo: self.view.rightAnchor).isActive = true
         self.label.topAnchor.constraint(equalTo: self.view.topAnchor).isActive = true
         self.label.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
-
-        ApiHandler().getStatusCode(){ code in
+    }
+    
+    func reloadLabel() {
+        ApiHandler().getStatus(){ message in
             DispatchQueue.main.async {
-                self.label.text = code == 0 ? "Nope." : "Yep."
+                self.label.text = message
             }
         }
     }
