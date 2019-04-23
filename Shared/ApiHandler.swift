@@ -12,12 +12,14 @@ import Foundation
 class ApiHandler {
     private let apiURL = "https://api.istodaymeatballsday.com"
     
-    private struct Response: Decodable {
+    struct Response: Decodable {
         let msg: String
         let code: Int
+        let meat: String
+        let veg: String
     }
 
-    public func getStatus(handler: @escaping ((String) -> Void)) {
+    public func getStatus(handler: @escaping ((Response) -> Void)) {
         guard let url = URL(string: apiURL) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in
@@ -25,7 +27,7 @@ class ApiHandler {
             
             do {
                 let res = try JSONDecoder().decode(Response.self, from: data)
-                handler(res.msg)
+                handler(res)
             }catch let error {
                 print("JSON error:", error)
             }

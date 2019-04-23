@@ -37,8 +37,8 @@ class InterfaceController: WKInterfaceController {
     
     private func updateLabel() {
         print("Reload")
-        ApiHandler().getStatus(handler: { message in
-            self.responseText = message
+        ApiHandler().getStatus(handler: { response in
+            self.responseText = response.msg
         })
     }
 

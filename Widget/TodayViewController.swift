@@ -30,8 +30,8 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         // If there's no update required, use NCUpdateResult.NoData
         // If there's an update, use NCUpdateResult.NewData
         ApiHandler().getStatus { (response) in
-            if(response != self.responseText){
-               self.responseText = response
+            if(response.msg != self.responseText){
+               self.responseText = response.msg
                 completionHandler(NCUpdateResult.newData)
             }else{
                 completionHandler(NCUpdateResult.noData)

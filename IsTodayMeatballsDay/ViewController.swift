@@ -30,9 +30,9 @@ class ViewController: UIViewController {
     }
     
     func reloadLabel() {
-        ApiHandler().getStatus(){ message in
+        ApiHandler().getStatus(){ response in
             DispatchQueue.main.async {
-                self.label.text = message
+                self.label.text = response.msg
             }
         }
     }
